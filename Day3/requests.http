@@ -1,0 +1,15 @@
+GET /customers
+Host:localhost:1234
+Accept: application/json
+
+###
+POST /customers
+Host:localhost:1234
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name":"Aromal",
+    "city":"Kochi",
+    "email":"arom@l.com"
+}
